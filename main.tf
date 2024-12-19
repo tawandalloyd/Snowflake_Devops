@@ -10,12 +10,13 @@ terraform {
     organization = "Tawanda_Lloyd"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "gh_actions_demo"
     }
   }
 }
 
 provider "snowflake" {
+
 }
 
 resource "snowflake_database" "demo_db" {
