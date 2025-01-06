@@ -2,7 +2,7 @@ name: snowflake-devops-demo
 
 # Controls when the action will run. 
 on:
-  pull_request:
+  push:
     branches:
       - main
     paths:
