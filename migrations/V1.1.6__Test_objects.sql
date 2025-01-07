@@ -1,1 +1,0 @@
-CREATE or replace SCHEMA test;
